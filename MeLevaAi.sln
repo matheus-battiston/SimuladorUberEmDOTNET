@@ -1,0 +1,60 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0 - Presentation", "0 - Presentation", "{932F1B7C-9E0D-4AB0-9D56-CA13775E7900}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - Application", "1 - Application", "{C6D13692-49FA-4159-82BE-50658C5D703F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Domain", "2 - Domain", "{B1747041-403F-4F11-ADC6-C642306234A0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - Infrastructure", "3 - Infrastructure", "{3A2D0DD4-D7FB-4171-87BC-19A9DAF18732}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MeLevaAi.Api", "src\MeLevaAi.Api\MeLevaAi.Api.csproj", "{49C44538-21CC-42D6-937B-C2D860A5CD86}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MeLevaAi.Application", "src\MeLevaAi.Application\MeLevaAi.Application.csproj", "{B902901F-6DE0-4F93-99AF-0B76672700C5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MeLevaAi.Domain", "src\MeLevaAi.Domain\MeLevaAi.Domain.csproj", "{C9E1C60D-158C-4A38-B4D6-E546A422CA74}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MeLevaAi.Infrastructure", "src\MeLevaAi.Infrastructure\MeLevaAi.Infrastructure.csproj", "{754A062D-B092-49C7-AE4E-F94439C13A93}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MeLevaAi.Tests", "tests\MeLevaAi.Tests\MeLevaAi.Tests.csproj", "{7A97DF5F-FC21-4E63-B2BE-492C191801C4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{49C44538-21CC-42D6-937B-C2D860A5CD86}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{49C44538-21CC-42D6-937B-C2D860A5CD86}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{49C44538-21CC-42D6-937B-C2D860A5CD86}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{49C44538-21CC-42D6-937B-C2D860A5CD86}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B902901F-6DE0-4F93-99AF-0B76672700C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B902901F-6DE0-4F93-99AF-0B76672700C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B902901F-6DE0-4F93-99AF-0B76672700C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B902901F-6DE0-4F93-99AF-0B76672700C5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C9E1C60D-158C-4A38-B4D6-E546A422CA74}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C9E1C60D-158C-4A38-B4D6-E546A422CA74}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C9E1C60D-158C-4A38-B4D6-E546A422CA74}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C9E1C60D-158C-4A38-B4D6-E546A422CA74}.Release|Any CPU.Build.0 = Release|Any CPU
+		{754A062D-B092-49C7-AE4E-F94439C13A93}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{754A062D-B092-49C7-AE4E-F94439C13A93}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{754A062D-B092-49C7-AE4E-F94439C13A93}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{754A062D-B092-49C7-AE4E-F94439C13A93}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7A97DF5F-FC21-4E63-B2BE-492C191801C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A97DF5F-FC21-4E63-B2BE-492C191801C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A97DF5F-FC21-4E63-B2BE-492C191801C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A97DF5F-FC21-4E63-B2BE-492C191801C4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{49C44538-21CC-42D6-937B-C2D860A5CD86} = {932F1B7C-9E0D-4AB0-9D56-CA13775E7900}
+		{B902901F-6DE0-4F93-99AF-0B76672700C5} = {C6D13692-49FA-4159-82BE-50658C5D703F}
+		{C9E1C60D-158C-4A38-B4D6-E546A422CA74} = {B1747041-403F-4F11-ADC6-C642306234A0}
+		{754A062D-B092-49C7-AE4E-F94439C13A93} = {3A2D0DD4-D7FB-4171-87BC-19A9DAF18732}
+	EndGlobalSection
+EndGlobal

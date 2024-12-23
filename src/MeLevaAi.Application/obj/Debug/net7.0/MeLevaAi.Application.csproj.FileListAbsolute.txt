@@ -1,0 +1,17 @@
+/Users/matheusfelipebattiston/CrescerCWI/MeLevaAi2/MeLevaAi/src/MeLevaAi.Application/bin/Debug/net7.0/MeLevaAi.Application.deps.json
+/Users/matheusfelipebattiston/CrescerCWI/MeLevaAi2/MeLevaAi/src/MeLevaAi.Application/bin/Debug/net7.0/MeLevaAi.Application.dll
+/Users/matheusfelipebattiston/CrescerCWI/MeLevaAi2/MeLevaAi/src/MeLevaAi.Application/bin/Debug/net7.0/MeLevaAi.Application.pdb
+/Users/matheusfelipebattiston/CrescerCWI/MeLevaAi2/MeLevaAi/src/MeLevaAi.Application/bin/Debug/net7.0/MeLevaAi.Domain.dll
+/Users/matheusfelipebattiston/CrescerCWI/MeLevaAi2/MeLevaAi/src/MeLevaAi.Application/bin/Debug/net7.0/MeLevaAi.Domain.pdb
+/Users/matheusfelipebattiston/CrescerCWI/MeLevaAi2/MeLevaAi/src/MeLevaAi.Application/obj/Debug/net7.0/MeLevaAi.Application.csproj.AssemblyReference.cache
+/Users/matheusfelipebattiston/CrescerCWI/MeLevaAi2/MeLevaAi/src/MeLevaAi.Application/obj/Debug/net7.0/MeLevaAi.Application.GeneratedMSBuildEditorConfig.editorconfig
+/Users/matheusfelipebattiston/CrescerCWI/MeLevaAi2/MeLevaAi/src/MeLevaAi.Application/obj/Debug/net7.0/MeLevaAi.Application.AssemblyInfoInputs.cache
+/Users/matheusfelipebattiston/CrescerCWI/MeLevaAi2/MeLevaAi/src/MeLevaAi.Application/obj/Debug/net7.0/MeLevaAi.Application.AssemblyInfo.cs
+/Users/matheusfelipebattiston/CrescerCWI/MeLevaAi2/MeLevaAi/src/MeLevaAi.Application/obj/Debug/net7.0/MeLevaAi.Application.csproj.CoreCompileInputs.cache
+/Users/matheusfelipebattiston/CrescerCWI/MeLevaAi2/MeLevaAi/src/MeLevaAi.Application/obj/Debug/net7.0/MeLevaAi.Application.csproj.CopyComplete
+/Users/matheusfelipebattiston/CrescerCWI/MeLevaAi2/MeLevaAi/src/MeLevaAi.Application/obj/Debug/net7.0/MeLevaAi.Application.dll
+/Users/matheusfelipebattiston/CrescerCWI/MeLevaAi2/MeLevaAi/src/MeLevaAi.Application/obj/Debug/net7.0/refint/MeLevaAi.Application.dll
+/Users/matheusfelipebattiston/CrescerCWI/MeLevaAi2/MeLevaAi/src/MeLevaAi.Application/obj/Debug/net7.0/MeLevaAi.Application.pdb
+/Users/matheusfelipebattiston/CrescerCWI/MeLevaAi2/MeLevaAi/src/MeLevaAi.Application/obj/Debug/net7.0/ref/MeLevaAi.Application.dll
+/Users/matheusfelipebattiston/CrescerCWI/MeLevaAi2/MeLevaAi/src/MeLevaAi.Application/bin/Debug/net7.0/MeLevaAi.Application.runtimeconfig.json
+/Users/matheusfelipebattiston/CrescerCWI/MeLevaAi2/MeLevaAi/src/MeLevaAi.Application/obj/Debug/net7.0/MeLevaAi.Application.genruntimeconfig.cache

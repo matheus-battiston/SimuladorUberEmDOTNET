@@ -1,0 +1,14 @@
+/Users/matheusfelipebattiston/CrescerCWI/MeLevaAi2/MeLevaAi/src/MeLevaAi.Domain/bin/Debug/net7.0/MeLevaAi.Domain.deps.json
+/Users/matheusfelipebattiston/CrescerCWI/MeLevaAi2/MeLevaAi/src/MeLevaAi.Domain/bin/Debug/net7.0/MeLevaAi.Domain.dll
+/Users/matheusfelipebattiston/CrescerCWI/MeLevaAi2/MeLevaAi/src/MeLevaAi.Domain/bin/Debug/net7.0/MeLevaAi.Domain.pdb
+/Users/matheusfelipebattiston/CrescerCWI/MeLevaAi2/MeLevaAi/src/MeLevaAi.Domain/obj/Debug/net7.0/MeLevaAi.Domain.csproj.AssemblyReference.cache
+/Users/matheusfelipebattiston/CrescerCWI/MeLevaAi2/MeLevaAi/src/MeLevaAi.Domain/obj/Debug/net7.0/MeLevaAi.Domain.GeneratedMSBuildEditorConfig.editorconfig
+/Users/matheusfelipebattiston/CrescerCWI/MeLevaAi2/MeLevaAi/src/MeLevaAi.Domain/obj/Debug/net7.0/MeLevaAi.Domain.AssemblyInfoInputs.cache
+/Users/matheusfelipebattiston/CrescerCWI/MeLevaAi2/MeLevaAi/src/MeLevaAi.Domain/obj/Debug/net7.0/MeLevaAi.Domain.AssemblyInfo.cs
+/Users/matheusfelipebattiston/CrescerCWI/MeLevaAi2/MeLevaAi/src/MeLevaAi.Domain/obj/Debug/net7.0/MeLevaAi.Domain.csproj.CoreCompileInputs.cache
+/Users/matheusfelipebattiston/CrescerCWI/MeLevaAi2/MeLevaAi/src/MeLevaAi.Domain/obj/Debug/net7.0/MeLevaAi.Domain.dll
+/Users/matheusfelipebattiston/CrescerCWI/MeLevaAi2/MeLevaAi/src/MeLevaAi.Domain/obj/Debug/net7.0/refint/MeLevaAi.Domain.dll
+/Users/matheusfelipebattiston/CrescerCWI/MeLevaAi2/MeLevaAi/src/MeLevaAi.Domain/obj/Debug/net7.0/MeLevaAi.Domain.pdb
+/Users/matheusfelipebattiston/CrescerCWI/MeLevaAi2/MeLevaAi/src/MeLevaAi.Domain/obj/Debug/net7.0/ref/MeLevaAi.Domain.dll
+/Users/matheusfelipebattiston/CrescerCWI/MeLevaAi2/MeLevaAi/src/MeLevaAi.Domain/bin/Debug/net7.0/MeLevaAi.Domain.runtimeconfig.json
+/Users/matheusfelipebattiston/CrescerCWI/MeLevaAi2/MeLevaAi/src/MeLevaAi.Domain/obj/Debug/net7.0/MeLevaAi.Domain.genruntimeconfig.cache

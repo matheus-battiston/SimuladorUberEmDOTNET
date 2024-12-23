@@ -1,0 +1,42 @@
+.menu-component {
+  height: var(--altura-menu);
+  width: 100%;
+  background: var(--roxo);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 50px;
+  z-index: 3;
+}
+
+.menu-component .logo {
+  display: flex;
+  align-items: center;
+}
+
+.menu-component img {
+  height: 40px;
+}
+
+.menu-component span {
+  color: var(--branco);
+  font-size: 18px;
+}
+
+.menu-component a {
+  display: inline-block;
+  color: var(--branco);
+  text-align: center;
+  font-size: 18px;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.menu-component a:hover {
+  text-decoration: underline;
+}
+
+.menu-component > div > a:visited {
+  color: var(--branco);
+  font-style: italic;
+}

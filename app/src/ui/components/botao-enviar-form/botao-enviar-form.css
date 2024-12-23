@@ -1,0 +1,16 @@
+.estilo-botao-form {
+  min-width: 200px;
+  width: max-content;
+  height: 50px;
+  border: none;
+  font-size: 18px;
+  color: var(--branco);
+  background-color: rgb(102, 67, 195);
+  border-radius: 20px;
+  margin-top: 20px;
+  padding: 0 30px;
+}
+
+.estilo-botao-form:hover {
+  cursor: pointer;
+}

@@ -1,0 +1,35 @@
+.estilo-formulario {
+  box-sizing: border-box;
+  height: 650px;
+  width: 800px;
+  border-radius: 50px;
+  border: 2px solid var(--branco);
+  background-color: rgba(134, 91, 243, 0.7);
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  align-items: center;
+  padding: 2%;
+  justify-content: space-around;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(20px);
+}
+
+.coluna {
+  flex-direction: column;
+}
+
+@media screen and (max-width: 1000px) {
+  .estilo-formulario {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .estilo-formulario {
+    flex-direction: column;
+    overflow: scroll;
+  }
+}

@@ -1,0 +1,46 @@
+.mensagem-component {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.4);
+  backdrop-filter: blur(2px);
+  z-index: 11;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.mensagem-component .container-mensagem {
+  background-color: rgba(107, 71, 206, 0.9);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  border-radius: 50px;
+  border: 2px solid var(--branco);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 24px;
+  padding: 2%;
+  gap: 30px;
+  max-width: 50vw;
+  color: var(--branco);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+}
+
+.mensagem-component .container-mensagem button {
+  font-size: 20px;
+  padding: 10px;
+  min-width: 100px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+ color: var(--branco);
+  background-color: var(--roxo);
+  box-shadow: 0 0 5px var(--roxo-escuro);
+}
+
+.mensagem-component .container-mensagem button:hover {
+  box-shadow: 0 0 10px var(--branco);
+}

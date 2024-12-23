@@ -1,0 +1,79 @@
+.detalhes-motorista-screen {
+  padding: 20px;
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+  gap: 20px;
+  color: var(--roxo-escuro);
+}
+
+.detalhes-motorista-screen .infos-motorista,
+.detalhes-motorista-screen .infos-veiculo {
+  border: 2px solid var(--roxo);
+  padding: 20px;
+  border-radius: 5px;
+  width: 100%;
+}
+
+.detalhes-motorista-screen .infos-veiculo {
+  display: flex;
+  align-items: center;
+}
+
+.detalhes-motorista-screen .infos-motorista {
+  display: flex;
+  justify-content: space-between;
+}
+
+.detalhes-motorista-screen .infos-motorista span {
+  margin-right: 10px;
+  display: inline-block;
+  margin-bottom: 15px;
+}
+
+.detalhes-motorista-screen .infos-motorista p {
+  margin-bottom: 5px;
+}
+
+.detalhes-motorista-screen .infos-motorista h1 {
+  font-family: 'Cabify Bold';
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.detalhes-motorista-screen .infos-motorista > div:last-child {
+  text-align: right;
+}
+
+.detalhes-motorista-screen .infos-motorista .nota {
+  color: var(--amarelo);
+  margin-left: 6px;
+  margin-bottom: 3px;
+}
+
+.detalhes-motorista-screen .infos-veiculo {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.detalhes-motorista-screen .infos-veiculo .imagem-carro {
+  width: 200px;
+}
+
+.detalhes-motorista-screen .infos-veiculo .detalhes-veiculo p {
+  margin-bottom: 5px;
+}
+
+.detalhes-motorista-screen .infos-veiculo .icone-adicionar-veiculo {
+  margin-right: 10px;
+}
+
+.detalhes-corridas-motorista-screen {
+  padding: 20px;
+}
+
+.detalhes-corridas-motorista-screen .nenhuma-corrida {
+  text-align: center;
+  font-style: italic;
+}

@@ -1,0 +1,51 @@
+.inicio-screen {
+  background-color: var(--roxo);
+  min-height: 100vh;
+  color: var(--branco);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+}
+
+.inicio-screen img {
+  width: 150px;
+}
+
+.inicio-screen .titulo-principal {
+  font-family: 'Cabify Bold';
+  font-size: 26px;
+  margin-bottom: 10px;
+}
+
+.inicio-screen .opcoes {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+}
+
+.inicio-screen .opcoes .botao-solicitar {
+  margin-bottom: 24px;
+}
+
+.inicio-screen .opcoes span {
+  font-size: 12px;
+}
+
+.inicio-screen .opcoes a {
+  padding: 10px 20px;
+  min-width: 20vw;
+  background-color: var(--branco);
+  border-radius: 5px;
+  color: var(--roxo);
+  display: block;
+  text-align: center;
+  text-decoration: none;
+}
+
+.inicio-screen .opcoes a:hover {
+  box-shadow: 0 0 10px var(--roxo-escuro);
+}
+

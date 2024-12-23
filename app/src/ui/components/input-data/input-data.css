@@ -1,0 +1,15 @@
+.data-input {
+  display: flex;
+  flex-direction: column;
+}
+
+.estilo-label-data {
+  color: var(--branco);
+}
+
+.estilo-input-data {
+  font-size: 18px;
+  color: var(--preto);
+  padding: 5px 10px;
+  border-radius: 20px;
+}

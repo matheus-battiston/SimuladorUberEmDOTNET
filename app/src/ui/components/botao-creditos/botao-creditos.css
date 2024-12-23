@@ -1,0 +1,17 @@
+.botao-creditos-component {
+  background-color: var(--roxo);
+  color: var(--branco);
+  border-radius: 5px;
+  font-size: 12px;
+  cursor: pointer;
+  padding: 3px 6px;
+  border: none;
+}
+
+.botao-creditos-component:hover {
+  box-shadow: 0 0 5px var(--roxo-escuro);
+}
+
+.botao-creditos-component i {
+  margin-right: 5px;
+}

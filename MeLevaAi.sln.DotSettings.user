@@ -1,0 +1,13 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:String x:Key="/Default/Environment/Highlighting/HighlightingSourceSnapshotLocation/@EntryValue">/Users/matheusfelipebattiston/Library/Caches/JetBrains/Rider2023.1/resharper-host/temp/Rider/vAny/CoverageData/_MeLevaAi.-818859402/Snapshot/snapshot.utdcvr</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=17438e26_002D0083_002D4880_002Da32c_002De607648732b0/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="Cadastrar_DeveCadastrarCorretamente" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;TestAncestor&gt;
+    &lt;TestId&gt;xUnit::7A97DF5F-FC21-4E63-B2BE-492C191801C4::net7.0::MeLevaAi.Tests.Services.PassageiroServiceTests.Cadastrar_DeveCadastrarCorretamente&lt;/TestId&gt;
+  &lt;/TestAncestor&gt;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=63c1d93c_002De3d6_002D4473_002D8c91_002Da28f76c82ad6/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="All tests from &amp;lt;MeLevaAi.Tests&amp;gt;" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;Project Location="/Users/matheusfelipebattiston/CrescerCWI/MeLevaAi2/MeLevaAi/tests/MeLevaAi.Tests" Presentation="&amp;lt;MeLevaAi.Tests&amp;gt;" /&gt;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=ef8cacfe_002Dfb42_002D49e8_002D8365_002D4f1cd34e1678/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="Cadastrar_DeveCadastrarCorretamente #2" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;Solution /&gt;
+&lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>

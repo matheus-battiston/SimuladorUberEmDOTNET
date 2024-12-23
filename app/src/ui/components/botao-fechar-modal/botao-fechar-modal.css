@@ -1,0 +1,17 @@
+.botao-fechar {
+  display: none;
+}
+
+.imagem-botao-fechar {
+  width: 20px;
+}
+
+.label-botao-fechar {
+  position: fixed;
+  top: 20px;
+  right: 30px;
+}
+
+.label-botao-fechar:hover {
+  cursor: pointer;
+}

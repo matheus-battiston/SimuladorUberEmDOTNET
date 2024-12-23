@@ -1,0 +1,10 @@
+.mapa-component h1 {
+  color: var(--roxo-escuro);
+}
+
+.mapa-component iframe {
+  width: 500px;
+  height: 250px;
+  border: solid 2px var(--roxo);
+  margin: 5px 0;
+}

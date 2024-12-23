@@ -1,0 +1,47 @@
+.fundo-modal-creditos {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.4);
+  backdrop-filter: blur(2px);
+}
+
+.estilo-modal-creditos {
+  box-sizing: border-box;
+  height: 200px;
+  width: 400px;
+  border-radius: 50px;
+  border: 2px solid var(--branco);
+  background-color: rgba(107, 71, 206, 0.9);
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2%;
+  justify-content: space-around;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+}
+
+.form-credito {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.texto-credito {
+  font-size: 24px;
+  border-radius: 24px;
+  height: 40px;
+  text-align: center;
+}
+
+.titulo-modal-credito {
+  color: var(--branco);
+  font-size: 24px;
+}

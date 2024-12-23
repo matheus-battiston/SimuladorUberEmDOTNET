@@ -1,0 +1,13 @@
+.estilo-form-cadastro {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 400px;
+}
+
+@media screen and (max-width: 530px) {
+  .estilo-form-cadastro {
+    width: 95%;
+  }
+}

@@ -1,0 +1,15 @@
+.lista-motoristas-screen {
+  padding: 20px;
+}
+
+.botao-criar-motorista{
+  position: fixed;
+  left: 50%;
+  bottom: 0;
+  transform: translate(-50%, -10%);
+}
+
+.lista-motoristas-screen .mensagem-nao-encontrado {
+  text-align: center;
+  font-style: italic;
+}

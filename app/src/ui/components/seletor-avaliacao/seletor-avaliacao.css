@@ -1,0 +1,75 @@
+.fundo-modal-avaliacao {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1040;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.apresentar-opcoes {
+  box-sizing: border-box;
+  height: 250px;
+  width: 300px;
+  border-radius: 50px;
+  border: 2px solid var(--branco);
+  background-color: rgba(107, 71, 206, 0.9);
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2%;
+  justify-content: space-around;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(20px);
+}
+
+.avaliacao {
+  float: right;
+  width: 100%;
+  justify-content: space-around;
+  flex-direction: row-reverse;
+  display: flex;
+  height: 46px;
+  padding: 0 10px;
+}
+
+.avaliacao:not(:checked) > input {
+  position: absolute;
+  top: -9999px;
+}
+
+.avaliacao:not(:checked) > label {
+  float: right;
+  width: 1em;
+  overflow: hidden;
+  white-space: nowrap;
+  cursor: pointer;
+  font-size: 30px;
+  color: var(--cinza);
+}
+
+.avaliacao:not(:checked) > label:before {
+  content: '★ ';
+}
+
+.avaliacao > input:checked ~ label {
+  color: var(--amarelo-avaliacao-um);
+}
+
+.avaliacao:not(:checked) > label:hover,
+.avaliacao:not(:checked) > label:hover ~ label {
+  color: var(--amarelo-avaliacao-dois);
+}
+
+.avaliacao > input:checked + label:hover,
+.avaliacao > input:checked + label:hover ~ label,
+.avaliacao > input:checked ~ label:hover,
+.avaliacao > input:checked ~ label:hover ~ label,
+.avaliacao > label:hover ~ input:checked ~ label {
+  color: var(--amarelo-avaliacao-tres);
+}

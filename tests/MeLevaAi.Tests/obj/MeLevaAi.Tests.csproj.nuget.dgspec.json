@@ -1,0 +1,328 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/matheusfelipebattiston/CrescerCWI/MeLevaAi2/MeLevaAi/tests/MeLevaAi.Tests/MeLevaAi.Tests.csproj": {}
+  },
+  "projects": {
+    "/Users/matheusfelipebattiston/CrescerCWI/MeLevaAi2/MeLevaAi/src/MeLevaAi.Application/MeLevaAi.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/matheusfelipebattiston/CrescerCWI/MeLevaAi2/MeLevaAi/src/MeLevaAi.Application/MeLevaAi.Application.csproj",
+        "projectName": "MeLevaAi.Application",
+        "projectPath": "/Users/matheusfelipebattiston/CrescerCWI/MeLevaAi2/MeLevaAi/src/MeLevaAi.Application/MeLevaAi.Application.csproj",
+        "packagesPath": "/Users/matheusfelipebattiston/.nuget/packages/",
+        "outputPath": "/Users/matheusfelipebattiston/CrescerCWI/MeLevaAi2/MeLevaAi/src/MeLevaAi.Application/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/matheusfelipebattiston/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "/Users/matheusfelipebattiston/CrescerCWI/MeLevaAi2/MeLevaAi/src/MeLevaAi.Domain/MeLevaAi.Domain.csproj": {
+                "projectPath": "/Users/matheusfelipebattiston/CrescerCWI/MeLevaAi2/MeLevaAi/src/MeLevaAi.Domain/MeLevaAi.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[7.0.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.203/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/matheusfelipebattiston/CrescerCWI/MeLevaAi2/MeLevaAi/src/MeLevaAi.Domain/MeLevaAi.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/matheusfelipebattiston/CrescerCWI/MeLevaAi2/MeLevaAi/src/MeLevaAi.Domain/MeLevaAi.Domain.csproj",
+        "projectName": "MeLevaAi.Domain",
+        "projectPath": "/Users/matheusfelipebattiston/CrescerCWI/MeLevaAi2/MeLevaAi/src/MeLevaAi.Domain/MeLevaAi.Domain.csproj",
+        "packagesPath": "/Users/matheusfelipebattiston/.nuget/packages/",
+        "outputPath": "/Users/matheusfelipebattiston/CrescerCWI/MeLevaAi2/MeLevaAi/src/MeLevaAi.Domain/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/matheusfelipebattiston/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[7.0.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.203/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/matheusfelipebattiston/CrescerCWI/MeLevaAi2/MeLevaAi/src/MeLevaAi.Infrastructure/MeLevaAi.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/matheusfelipebattiston/CrescerCWI/MeLevaAi2/MeLevaAi/src/MeLevaAi.Infrastructure/MeLevaAi.Infrastructure.csproj",
+        "projectName": "MeLevaAi.Infrastructure",
+        "projectPath": "/Users/matheusfelipebattiston/CrescerCWI/MeLevaAi2/MeLevaAi/src/MeLevaAi.Infrastructure/MeLevaAi.Infrastructure.csproj",
+        "packagesPath": "/Users/matheusfelipebattiston/.nuget/packages/",
+        "outputPath": "/Users/matheusfelipebattiston/CrescerCWI/MeLevaAi2/MeLevaAi/src/MeLevaAi.Infrastructure/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/matheusfelipebattiston/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "/Users/matheusfelipebattiston/CrescerCWI/MeLevaAi2/MeLevaAi/src/MeLevaAi.Domain/MeLevaAi.Domain.csproj": {
+                "projectPath": "/Users/matheusfelipebattiston/CrescerCWI/MeLevaAi2/MeLevaAi/src/MeLevaAi.Domain/MeLevaAi.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[7.0.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.203/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/matheusfelipebattiston/CrescerCWI/MeLevaAi2/MeLevaAi/tests/MeLevaAi.Tests/MeLevaAi.Tests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/matheusfelipebattiston/CrescerCWI/MeLevaAi2/MeLevaAi/tests/MeLevaAi.Tests/MeLevaAi.Tests.csproj",
+        "projectName": "MeLevaAi.Tests",
+        "projectPath": "/Users/matheusfelipebattiston/CrescerCWI/MeLevaAi2/MeLevaAi/tests/MeLevaAi.Tests/MeLevaAi.Tests.csproj",
+        "packagesPath": "/Users/matheusfelipebattiston/.nuget/packages/",
+        "outputPath": "/Users/matheusfelipebattiston/CrescerCWI/MeLevaAi2/MeLevaAi/tests/MeLevaAi.Tests/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/matheusfelipebattiston/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "/Users/matheusfelipebattiston/CrescerCWI/MeLevaAi2/MeLevaAi/src/MeLevaAi.Application/MeLevaAi.Application.csproj": {
+                "projectPath": "/Users/matheusfelipebattiston/CrescerCWI/MeLevaAi2/MeLevaAi/src/MeLevaAi.Application/MeLevaAi.Application.csproj"
+              },
+              "/Users/matheusfelipebattiston/CrescerCWI/MeLevaAi2/MeLevaAi/src/MeLevaAi.Domain/MeLevaAi.Domain.csproj": {
+                "projectPath": "/Users/matheusfelipebattiston/CrescerCWI/MeLevaAi2/MeLevaAi/src/MeLevaAi.Domain/MeLevaAi.Domain.csproj"
+              },
+              "/Users/matheusfelipebattiston/CrescerCWI/MeLevaAi2/MeLevaAi/src/MeLevaAi.Infrastructure/MeLevaAi.Infrastructure.csproj": {
+                "projectPath": "/Users/matheusfelipebattiston/CrescerCWI/MeLevaAi2/MeLevaAi/src/MeLevaAi.Infrastructure/MeLevaAi.Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "FluentAssertions": {
+              "target": "Package",
+              "version": "[6.11.0, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.5.0, )"
+            },
+            "Moq": {
+              "target": "Package",
+              "version": "[4.18.4, )"
+            },
+            "coverlet.collector": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.2.0, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.4.2, )"
+            },
+            "xunit.runner.visualstudio": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.4.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.203/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

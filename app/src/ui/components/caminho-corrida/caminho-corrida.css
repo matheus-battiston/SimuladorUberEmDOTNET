@@ -1,0 +1,75 @@
+.caminho-component {
+  width: 100%;
+  max-width: 800px;
+  display: flex;
+  padding: 10px 10px 20px 10px;
+  box-sizing: border-box;
+  border-radius: 5px;
+  box-shadow: 0 0 0 1px var(--roxo);
+}
+
+.caminho-component .etapa span {
+  color: var(--roxo-escuro);
+}
+
+.caminho-component .etapa {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.caminho-component img.carro {
+  visibility: hidden;
+  width: 30px;
+  margin-top: 10px;
+  fill: var(--roxo)
+}
+
+.caminho-component .linha {
+  position: relative;
+  width: 100%;
+  display: flex;
+}
+
+.caminho-component .linha-metade {
+  width: 100%;
+  border-bottom: solid 2px transparent;
+}
+
+.caminho-component .linha .circulo {
+  position: absolute;
+  height: 10px;
+  width: 10px;
+  border-radius: 10px;
+  bottom: -5px;
+  left: calc(50% - 5px);
+  background-color: var(--roxo);
+}
+
+[data-selecionado="SOLICITADA"] .etapa-solicitado img.carro {
+  visibility: visible;
+}
+
+[data-selecionado="INICIADA"] .etapa-iniciado img.carro {
+  visibility: visible;
+}
+
+[data-selecionado="INICIADA"] .etapa-solicitado .direita,
+[data-selecionado="INICIADA"] .etapa-iniciado .esquerda
+{
+  border-bottom: solid 2px var(--roxo);
+}
+
+[data-selecionado="FINALIZADA"] .etapa-finalizado img.carro {
+  visibility: visible;
+}
+
+[data-selecionado="FINALIZADA"] .etapa-solicitado .direita,
+[data-selecionado="FINALIZADA"] .etapa-iniciado .esquerda,
+[data-selecionado="FINALIZADA"] .etapa-iniciado .direita,
+[data-selecionado="FINALIZADA"] .etapa-finalizado .esquerda
+{
+  border-bottom: solid 2px var(--roxo);
+}

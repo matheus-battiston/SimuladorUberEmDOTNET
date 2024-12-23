@@ -1,0 +1,60 @@
+.detalhes-passageiro-screen {
+  padding: 20px;
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+  gap: 20px;
+  color: var(--roxo-escuro);
+}
+
+.detalhes-passageiro-screen .infos-passageiro,
+.detalhes-passageiro-screen .infos-veiculo {
+  border: 2px solid var(--roxo);
+  padding: 20px;
+  border-radius: 5px;
+  width: 100%;
+}
+
+.detalhes-passageiro-screen .infos-veiculo {
+  display: flex;
+  align-items: center;
+}
+
+.detalhes-passageiro-screen .infos-passageiro {
+  display: flex;
+  justify-content: space-between;
+}
+
+.detalhes-passageiro-screen .infos-passageiro span {
+  margin-right: 10px;
+  display: inline-block;
+}
+
+.detalhes-passageiro-screen .infos-passageiro h1 {
+  font-family: 'Cabify Bold';
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.detalhes-passageiro-screen .infos-passageiro > div:last-child {
+  text-align: right;
+}
+
+.detalhes-passageiro-screen .infos-passageiro .nota {
+  color: var(--amarelo);
+  margin-left: 6px;
+  margin-bottom: 3px;
+}
+
+.detalhes-passageiro-screen .imagem-carro {
+  width: 200px;
+}
+
+.detalhes-corridas-passageiro-screen {
+  padding: 20px;
+}
+
+.detalhes-corridas-passageiro-screen .nenhuma-corrida {
+  text-align: center;
+  font-style: italic;
+}

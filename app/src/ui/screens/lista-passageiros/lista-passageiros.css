@@ -1,0 +1,15 @@
+.lista-passageiros-screen {
+  padding: 20px;
+}
+
+.botao-criar-passageiro{
+  position: fixed;
+  left: 50%;
+  bottom: 0;
+  transform: translate(-50%, -10%);
+}
+
+.lista-passageiros-screen .mensagem-nao-encontrado {
+  text-align: center;
+  font-style: italic;
+}

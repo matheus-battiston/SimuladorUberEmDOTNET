@@ -1,0 +1,23 @@
+.estilo-input{
+    margin-top: 10px;
+    color: var(--preto);
+    padding-left: 30px;
+    font-size: 20px;
+    border: 2px solid var(--cinza);
+    background-color: var(--branco);
+    height: 30px;
+    border-radius: 20px;
+    width: 400px;
+}
+
+.label-form{
+    color: var(--branco);
+    font-size: 20px;
+    margin-top: 40px;
+}
+
+@media screen and (max-width:535px) {
+    .estilo-input{
+        width: 90%;
+    }
+}

@@ -1,0 +1,9 @@
+.botao-voltar-component {
+  background-color: transparent;
+  font-size: 26px;
+  color: var(--branco);
+  border: none;
+  cursor: pointer;
+  margin-top: 15px;
+  margin-left: 15px;
+}

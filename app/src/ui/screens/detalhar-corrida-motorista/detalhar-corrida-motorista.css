@@ -1,0 +1,12 @@
+.detalhes-corrida-motorista-screen {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.detalhes-corrida-motorista-screen .container-botoes {
+    display: flex;
+    gap: 20px;
+}

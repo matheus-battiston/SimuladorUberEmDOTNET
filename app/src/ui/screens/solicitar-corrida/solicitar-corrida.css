@@ -1,0 +1,8 @@
+.solicitar-corrida-screen {
+  padding: 20px;
+}
+
+.solicitar-corrida-screen .mensagem-nao-encontrado {
+ text-align: center;
+ font-style: italic;
+}
